@@ -92,7 +92,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/pages/theme.html",
       inject: true,
-      chunks: ["index", "theme"],
+      chunks: ["theme"],
       filename: "theme.html",
     }),
   ],

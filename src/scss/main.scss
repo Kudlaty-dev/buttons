@@ -11,3 +11,18 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+
+
+:root {
+  --header-color: yellow;
+  --paragraph-color: red;
+}
+
+
+h1 {
+  color: var(--header-color);
+}
+
+p {
+  color: var(--paragraph-color);
+}
