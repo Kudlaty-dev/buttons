@@ -5,7 +5,7 @@ var el = document.querySelector('.theme');
 var listener = el.addEventListener('click', changer);
 function changer () {
     console.log ('Klikłeś')
-    document.documentElement.style.setProperty('--header-color', 'blue');
+    document.documentElement.style.setProperty('--header-color', 'hotpink');
 }
 
 
